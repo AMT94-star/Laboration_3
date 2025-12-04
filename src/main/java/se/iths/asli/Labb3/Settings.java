@@ -20,7 +20,7 @@ public class Settings {
         }
     }
 
-    private static Settings getInstance() {
+    public static Settings getInstance() {
         if (instance == null) {
             instance = new Settings();
         }
